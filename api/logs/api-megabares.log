@@ -1,0 +1,39 @@
+2025-01-17T16:26:50.745-03:00  INFO 23484 --- [restartedMain] c.megabares.api.ApiMegabaresApplication  : Starting ApiMegabaresApplication using Java 17.0.2 with PID 23484 (F:\user\Documents\dev\Proyectos\api-megabares\api\target\classes started by Francisco in F:\user\Documents\dev\Proyectos\api-megabares\api)
+2025-01-17T16:26:50.775-03:00  INFO 23484 --- [restartedMain] c.megabares.api.ApiMegabaresApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-17T16:26:50.899-03:00  INFO 23484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-17T16:26:50.900-03:00  INFO 23484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-17T16:26:52.341-03:00  INFO 23484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-01-17T16:26:52.345-03:00  INFO 23484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-01-17T16:26:52.430-03:00  INFO 23484 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.megabares.api.repositories.ClienteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-01-17T16:26:52.436-03:00  INFO 23484 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.megabares.api.repositories.CobroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-01-17T16:26:52.439-03:00  INFO 23484 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.megabares.api.repositories.EmailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-01-17T16:26:52.442-03:00  INFO 23484 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.megabares.api.repositories.ModuloRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-01-17T16:26:52.446-03:00  INFO 23484 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.megabares.api.repositories.PeriodoRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-01-17T16:26:52.447-03:00  INFO 23484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 0 JDBC repository interfaces.
+2025-01-17T16:26:52.471-03:00  INFO 23484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-01-17T16:26:52.474-03:00  INFO 23484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-17T16:26:52.571-03:00  INFO 23484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 5 JPA repository interfaces.
+2025-01-17T16:26:54.487-03:00  INFO 23484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8097 (http)
+2025-01-17T16:26:54.510-03:00  INFO 23484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-17T16:26:54.511-03:00  INFO 23484 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2025-01-17T16:26:54.649-03:00  INFO 23484 --- [restartedMain] o.a.c.c.C.[.[localhost].[/mega-api]      : Initializing Spring embedded WebApplicationContext
+2025-01-17T16:26:54.650-03:00  INFO 23484 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3747 ms
+2025-01-17T16:26:54.923-03:00  INFO 23484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-17T16:26:55.712-03:00  INFO 23484 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@db633e9
+2025-01-17T16:26:55.716-03:00  INFO 23484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-17T16:26:56.738-03:00  INFO 23484 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2025-01-17T16:26:58.317-03:00  INFO 23484 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-17T16:26:59.778-03:00  WARN 23484 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-17T16:27:00.712-03:00  INFO 23484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-17T16:27:00.790-03:00  INFO 23484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8097 (http) with context path '/mega-api'
+2025-01-17T16:27:00.817-03:00  INFO 23484 --- [restartedMain] c.megabares.api.ApiMegabaresApplication  : Started ApiMegabaresApplication in 11.062 seconds (process running for 11.621)
+2025-01-17T16:27:10.828-03:00  INFO 23484 --- [scheduling-1] com.megabares.api.util.EmailProcess      : monitoreo...
+2025-01-17T16:27:10.831-03:00  INFO 23484 --- [scheduling-1] com.megabares.api.util.EmailProcess      : processEmails...
+2025-01-17T16:27:11.388-03:00  INFO 23484 --- [scheduling-1] com.megabares.api.util.EmailProcess      : 
+******* TOTALES *******
+TOTAL: 0 Recibidos.
+2025-01-17T16:27:40.812-03:00  INFO 23484 --- [scheduling-1] com.megabares.api.util.EmailProcess      : monitoreo...
+2025-01-17T16:27:40.812-03:00  INFO 23484 --- [scheduling-1] com.megabares.api.util.EmailProcess      : processEmails...
+2025-01-17T16:27:40.974-03:00  INFO 23484 --- [scheduling-1] com.megabares.api.util.EmailProcess      : 
+******* TOTALES *******
+TOTAL: 0 Recibidos.
