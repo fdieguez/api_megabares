@@ -1,0 +1,54 @@
+# Ignorar archivos de compilación de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorar directorios generados por Maven
+target/
+
+# Ignorar archivos de configuración de Maven
+*.log
+*.log.*
+
+# Ignorar archivos de configuración de la base de datos
+*.h2.db
+
+# Ignorar archivos de configuración local
+*.idea/
+*.vscode/
+
+# Ignorar archivos específicos de Spring Boot
+*.pid
+*.swp
+*.bak
+
+# Ignorar el archivo de configuración de Docker
+docker-compose.override.yml
+
+# Ignorar archivos de compilación de Vaadin
+/target/*
+/node_modules/
+*.npm
+*.yarn
+
+# Ignorar archivos de configuración de dependencias de frontend
+*.yarnrc
+*.npmrc
+
+# Ignorar logs de la aplicación
+logs/
+*.log
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones específicas de IntelliJ IDEA
+.idea/
+
+# Ignorar el archivo de configuración de Maven Wrapper
+.mvn/
+
+# Ignorar otros archivos generados en el entorno de desarrollo
+*.iml
