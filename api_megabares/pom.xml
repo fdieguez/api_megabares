@@ -5,12 +5,12 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.1</version>
+        <version>3.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.megabares</groupId>
     <artifactId>api_megabares</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <name>api_megabares</name>
     <description>api para sistemas megabares</description>
     <properties>
@@ -91,12 +91,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>8.0</version>
-            <type>jar</type>
-        </dependency>
+        
         
         <!-- Para log en un file -->
         <dependency>
@@ -112,6 +107,15 @@
 
     <build>
         <plugins>
+            
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <filtering>true</filtering>
+                </configuration>
+            </plugin>
+            
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
