@@ -13,7 +13,6 @@ import jakarta.persistence.*;
  * @author Francisco
  */
 @Entity
-@Table(name = "venta")
 public class Venta extends Ingreso {
 
     @Column(name = "envio", nullable = true, length = 30)

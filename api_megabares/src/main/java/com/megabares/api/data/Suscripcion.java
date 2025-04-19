@@ -9,7 +9,6 @@ import jakarta.persistence.*;
  * @author Francisco
  */
 @Entity
-@Table(name = "Suscripcion")
 public class Suscripcion extends Ingreso {
 
     @Column(name = "hasta", nullable = true)
