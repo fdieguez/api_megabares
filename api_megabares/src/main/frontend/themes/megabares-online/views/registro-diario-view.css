@@ -1,0 +1,44 @@
+.registro-diario-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.registro-diario-view vaadin-split-layout {
+  width: 100%;
+  height: 100%;
+}
+
+.registro-diario-view vaadin-grid {
+  height: 100%;
+}
+
+.registro-diario-view .editor-layout {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.registro-diario-view .editor {
+  flex-grow: 1;
+  padding: var(--lumo-space-l);
+}
+
+.registro-diario-view .editor vaadin-checkbox {
+  padding-top: var(--lumo-space-m);
+}
+
+.registro-diario-view .button-layout {
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: var(--lumo-contrast-5pct);
+  padding-bottom: var(--lumo-space-s);
+  padding-top: var(--lumo-space-s);
+  padding-left: var(--lumo-space-l);
+  padding-right: var(--lumo-space-l);
+  gap: var(--lumo-space-m);
+}
+
+.registro-diario-view .grid-wrapper {
+  width: 100%;
+}
